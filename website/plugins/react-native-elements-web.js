@@ -4,6 +4,8 @@ const webpack = require('webpack');
 const rootNodeModules = path.join(__dirname, '..', '..', 'node_modules');
 const nodeModules = path.join(__dirname, '..', 'node_modules');
 
+// hemant commit 1
+
 /** @type {()=>import('@docusaurus/types').Plugin} */
 const a = function () {
   return {
